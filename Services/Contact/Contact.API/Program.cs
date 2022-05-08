@@ -10,9 +10,6 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.WebHost.UseUrls("http://*.9000");
-
-
 #region Dependency Injection
 
 builder.Services.AddScoped<IContactService, ContactService>();
