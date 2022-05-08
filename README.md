@@ -1,1 +1,1 @@
-# OcelotExample with .net 6
+# api gateway example with ocelot and .net 6
